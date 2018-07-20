@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Single Stop
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h1 id="title">Enter Vin Number</h1>
+  <form id="vin-form">
+    <ion-item>
+      <ion-input type="text" placeholder="34q8e857ef"></ion-input>
+
+    </ion-item>
+    <p class="definition">What is a <span class="definition" (click)="presentAlert()">vin</span>?</p>
+  </form>
+
+  <div id="divider">
+    <hr class="line">
+    <span>OR</span>
+    <hr class="line"> 
+  </div>
+
+
+  <div id="select-options">
+    <ion-item>
+      <ion-label>Gender</ion-label>
+      <ion-select [(ngModel)]="gender">
+        <ion-option value="f">Female</ion-option>
+        <ion-option value="m">Male</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>Gender</ion-label>
+      <ion-select [(ngModel)]="gender">
+        <ion-option value="f">Female</ion-option>
+        <ion-option value="m">Male</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>Gender</ion-label>
+      <ion-select [(ngModel)]="gender">
+        <ion-option value="f">Female</ion-option>
+        <ion-option value="m">Male</ion-option>
+      </ion-select>
+    </ion-item>
+  </div>
+  <button id="pp" [navPush]="problemsPage"> Submit </button>
+</ion-content>

@@ -1,0 +1,57 @@
+page-home {
+
+    .toolbar-background{
+        background-color: #0fb8ad;
+        color: white !important;
+    }
+    .toolbar-title{
+        color: white !important;
+    }
+    #title{
+        text-align: center;
+        color: #101D42;
+        font-size: 28px;
+        margin-top: 25px;
+    }
+
+    ion-item{
+        padding: 0 !important;
+    }
+    
+    #vin-form{
+        padding: 0 45px;
+
+    }
+    .line{
+        width: 130px;
+        color: black !important;
+        height: 1.55px !important;
+        display: inline-block;
+        background-color: black !important;
+
+    }
+
+    #divider{
+        margin-top: 35px;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+
+    #select-options ion-item .item-inner{
+        margin: 12px 0;
+    }
+
+    #pp{
+        margin-left: 6em;
+        margin-top: 1em;
+        width: 7em; 
+        height: 2.5em;
+        background-color: #0fb8ad;
+        color: white;
+    }
+
+    .definition{
+        color: darkblue;
+        text-decoration: underline;
+    }
+}
