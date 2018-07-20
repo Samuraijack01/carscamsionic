@@ -1,3 +1,65 @@
 page-possible-problems {
+    ion-content, .scroll-content{
+        padding: 16px 35px !important;
+    }
+    .toolbar-background{
+        background-color: #0fb8ad;
+        color: white !important;
+    }
+    .toolbar-title{
+        color: white !important;
+    }
+    .back-button{
+        color: white;
+    }
+    .searchbar{
+        border: none !important;
+        background: transparent !important;
+        margin-bottom: 25px;
+        border-bottom:solid thin rgba(0,0,0,0.2);
+    }
 
+    .searchbar-input-container{
+        border-bottom:solid thin rgba(0,0,0,0.2);
+    }
+
+    .item{ border: none !important}
+
+    .car-item{
+        padding: 10px 15px;
+        background-color: #0fb8ad;
+        margin-bottom: 25px;
+    }
+    .car-item *{
+        color: white !important;
+        
+    }
+
+    .icon{
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .title{
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .title p{
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .preview p{
+        font-size: 16px;
+        white-space: normal;
+        margin-top: 5px;
+    }
+
+    .list-ios .item-block .item-inner {
+        border-bottom: none !important;
+        padding: 0 !important;
+    }
+    
+    
 }

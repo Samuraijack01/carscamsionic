@@ -1,0 +1,42 @@
+page-results {
+    ion-content, .scroll-content{
+        padding: 16px 20px !important;
+    }
+    .toolbar-background{
+        background-color: #0fb8ad;
+        color: white !important;
+    }
+    .toolbar-title{
+        color: white !important;
+    }
+    .back-button{
+        color: white;
+    }
+
+    .result-container{
+        padding: 15px 20px;
+        background-color: #0fb8ad;
+    }
+
+    .result-container *{
+        color: white !important;
+    }
+
+    .img-container{
+        width: 100%;
+        height: 175px;
+        overflow: hidden;
+    }
+
+    .img-container img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .title p{
+        color: white;
+        font-size: 21px;
+        text-align: center;
+    }
+}

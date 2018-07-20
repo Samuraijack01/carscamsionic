@@ -7,17 +7,29 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>PossibleProblems</ion-title>
+    <ion-title>Diagnostics</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-   
-  
-  
+
+
+  <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+  <ion-list>
+    <ion-item class="car-item" *ngFor="let item of items" (click)="clickItem(item.id)">
+      <div>
+        <div class="icon" [innerHtml]="item.icon">
+        </div>
+        <div class="title">
+          <p>{{item.title}}</p>
+        </div>
+        <div class="preview">
+          <p>{{item.preview}}</p>
+        </div>
+      </div>
+    </ion-item>
+  </ion-list>
 
 </ion-content>
-
-
